@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent_requirements{
+width: 600px;
+height: 700px;
+padding-top: 100px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.parent_right{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+
+}
+.inner_requirement{
+  padding-top: 50px;
+  padding-left: 50px;
+}
+@media (max-width:650px) {
+  .inner_requirement{
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

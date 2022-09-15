@@ -1,0 +1,48 @@
+
+.navigation {
+  
+  width: 100%;
+  height: 1200px;
+  background-color: #e9e9e3;
+  display: flex;
+  flex-direction: row;
+  padding: 52px;
+  padding-top: 120px;
+  display: block;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  
+  text-decoration-line: none;
+}
+
+.button__hover {
+  width: 435px;
+  height: 45px;
+  font-family: "Inter";
+  font-size: 15px;
+  background-color: #e9e9e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6f6f64;
+  border: 2px solid #6f6f64;
+  margin-top: 20px;
+}
+
+.button__hover a {
+  
+  text-decoration-line: none;
+}
+
+.button__hover:hover {
+  background-color: #6f6f64;
+  transition: 2s;
+  color: #e9e9e3;
+}
+

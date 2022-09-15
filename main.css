@@ -1,0 +1,23 @@
+@import url(navbar.css);
+@import url(introduction.css);
+@import url(navigation.css);
+@import url(home_page.css);
+@import url(footer.css);
+@import url(cards.css);
+@import url(requirements.css);
+@import url(slider.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* .container {
+  max-width:min-content;
+  margin: 0 auto;
+} */
